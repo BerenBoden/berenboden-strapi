@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_resource_resource_data",
+  "info": {
+    "displayName": "ResourceData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}
