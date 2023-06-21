@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "certfications",
+  "collectionName": "certifications",
   "info": {
-    "singularName": "certfication",
-    "pluralName": "certfications",
-    "displayName": "Certfication",
-    "description": ""
+    "singularName": "certification",
+    "pluralName": "certifications",
+    "displayName": "Certification"
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +18,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "title"
+      "targetField": "title",
+      "required": true
     },
     "resource": {
       "type": "component",
