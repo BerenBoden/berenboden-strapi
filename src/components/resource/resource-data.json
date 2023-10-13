@@ -25,6 +25,9 @@
     },
     "external": {
       "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
