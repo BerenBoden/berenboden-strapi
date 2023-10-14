@@ -8,10 +8,10 @@ export interface ResourceResourceData extends Schema.Component {
   };
   attributes: {
     content: Attribute.RichText & Attribute.Required;
-    cover: Attribute.Media & Attribute.Required;
     description: Attribute.String & Attribute.Required;
     external: Attribute.String;
     featured: Attribute.Boolean;
+    cover: Attribute.String;
   };
 }
 

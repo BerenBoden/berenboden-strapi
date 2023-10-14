@@ -10,14 +10,6 @@
       "type": "richtext",
       "required": true
     },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "description": {
       "type": "string",
       "required": true,
@@ -28,6 +20,9 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "cover": {
+      "type": "string"
     }
   }
 }
