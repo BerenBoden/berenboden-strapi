@@ -23,6 +23,9 @@
     },
     "cover": {
       "type": "string"
+    },
+    "coverAltText": {
+      "type": "string"
     }
   }
 }

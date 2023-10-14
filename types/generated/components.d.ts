@@ -12,6 +12,7 @@ export interface ResourceResourceData extends Schema.Component {
     external: Attribute.String;
     featured: Attribute.Boolean;
     cover: Attribute.String;
+    coverAltText: Attribute.String;
   };
 }
 
