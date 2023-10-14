@@ -27,23 +27,6 @@ module.exports = [
     },
   },
   "strapi::security",
-  {
-    upload: {
-      config: {
-        breakpoints: {
-          // Comment or uncomment keys below to disable thumbnail creation.
-          // Useful when you rely on services for image resizing (ie: vercel...) and
-          // don't want to increase disk usage, backups..
-          // Caution: this applies to new uploaded images.
-          // xlarge: 1920,
-          // large: 1000,
-          // medium: 750,
-          // small: 500,
-          xsmall: 64,
-        },
-      },
-    },
-  },
   "strapi::cors",
   "strapi::poweredBy",
   "strapi::logger",
