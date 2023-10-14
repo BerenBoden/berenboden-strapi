@@ -39,6 +39,7 @@ module.exports = [
           // large: 1000,
           // medium: 750,
           // small: 500,
+          xsmall: 64,
         },
       },
     },
