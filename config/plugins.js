@@ -14,9 +14,7 @@ module.exports = ({ env }) => ({
         },
       },
       actionOptions: {
-        upload: {
-          formats: false
-        },
+        upload: {},
         uploadStream: {},
         delete: {},
       },
